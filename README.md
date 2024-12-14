@@ -11,6 +11,7 @@ The Wallet App is a Flutter-based mobile application designed to facilitate fina
 - **Transaction History**: Keep track of all past transactions, including transfers and withdrawals.
 - **Money Transfer**: Transfer funds to other users, deducting the amount from the available balance and saving transaction records.
 - **Withdrawal**: Withdraw funds from the wallet with automatic balance checks to ensure sufficient funds.
+- **Deposit**: Deposit funds from the wallet with automatic balance checks to ensure sufficient funds.
 - **Phone Credit**: A feature to manage phone credit balance (planned for future enhancements or mobile-related operations).
 - **Local Storage**: All user data, balances, and transaction history are stored locally using SharedPreferences for quick access.
 
@@ -36,20 +37,20 @@ Before you begin, make sure the following tools are installed:
 - **Flutter SDK**: [Install Flutter](https://flutter.dev/docs/get-started/install)
 - **Dart SDK**: Typically comes bundled with Flutter.
 - **Code Editor**: A code editor like **VSCode** or **Android Studio**.
-- **Emulator or Physical Device**: For testing and running the app.
+- **Emulator or Physical Device**: For running the app.
 
 ### Installation Steps
 
 1. **Clone the repository**:
 
     ```bash
-    git clone https://github.com/yourusername/your_project_name.git
+    git clone https://github.com/Mohamedosama-dev/Wallet_Mobile.git
     ```
 
 2. **Navigate to the project directory**:
 
     ```bash
-    cd your_project_name
+    cd wallet
     ```
 
 3. **Install dependencies**:
@@ -81,15 +82,27 @@ Once the app is up and running, you will have access to the following features:
 
 1. **Dashboard Page**:  
    This page displays your available balance, phone credit (if applicable), and a summary of recent transactions.
-   
-2. **Transfer Page**:  
-   Allows you to initiate money transfers to other users by entering their phone number and the amount to transfer. The app will deduct the transferred amount from your balance and update the transaction history.
+
+2. **Deposit Page**:  
+   Allows you to deposit funds into your wallet. You can add money to your balance, which will be reflected immediately in your available funds.
 
 3. **Withdraw Page**:  
-   Enables users to withdraw funds from their wallet. The app checks the available balance and processes the withdrawal accordingly.
+   Enables users to withdraw funds from their wallet. The app checks the available balance to ensure sufficient funds before processing the withdrawal.
 
-4. **Transactions Page**:  
-   View a detailed list of all past transactions, including transfers, withdrawals, and other wallet-related activities.
+4. **Transfer Page**:  
+   Allows you to initiate money transfers to other users by entering their phone number and the amount to transfer. The app will deduct the transferred amount from your balance and update the transaction history.
+
+5. **Transfer to Charity Page**:  
+   A special page dedicated to transferring funds to a charity. You can select the amount to donate, and the app will process the transaction, updating the history accordingly.
+
+6. **Recharge Phone Credit Page**:  
+   Allows you to recharge your phone or another user’s phone credit. You can enter the phone number and the recharge amount, and the app will handle the transaction.
+
+7. **Pay Bill Page**:  
+   This page allows you to pay various bills directly from your wallet. You can select the bill category (e.g., electricity, water) and input the amount to pay. The app will deduct the bill amount from your wallet and process the transaction.
+
+8. **Transactions Page**:  
+   View a detailed list of all past transactions, including deposits, withdrawals, transfers (to users or charity), phone credit recharges, and bill payments.
 
 ## File Structure
 
