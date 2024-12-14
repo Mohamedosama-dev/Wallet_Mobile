@@ -22,9 +22,6 @@ The Wallet App is a Flutter-based mobile application designed to facilitate fina
 - **Font Awesome**: A popular icon library used for displaying intuitive icons in the app.
 - **Animated Text Kit**: A library used for creating engaging and animated text effects, enhancing the user interface.
 
-## Screenshots
-
-(Optional: Add screenshots of your app to provide a visual preview of its interface.)
 
 ## Getting Started
 
