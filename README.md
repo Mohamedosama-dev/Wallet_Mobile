@@ -1,19 +1,20 @@
-![Screenshot 2024-12-14 at 21-40-13 wallet cartoon image - بحث Google](https://github.com/user-attachments/assets/2a8f2897-1a18-4481-8e24-080204cd36b0)
 # Wallet App
 
 **Description**:  
-The Wallet App is a Flutter-based mobile application designed to facilitate financial transactions. It allows users to manage their finances by performing activities such as money transfers, withdrawals, and viewing transaction history. The app integrates with **SharedPreferences** to securely store user data, transaction history, and account balances for a seamless user experience.
+The **Wallet App** is a Flutter-based mobile application designed to facilitate financial transactions. It allows users to manage their finances by performing activities such as money transfers, withdrawals, and viewing transaction history. The app integrates with **SharedPreferences** to securely store user data, transaction history, and account balances for a seamless user experience.
+
+![Wallet App Screenshot](https://github.com/user-attachments/assets/2a8f2897-1a18-4481-8e24-080204cd36b0)
 
 ## Key Features
 
-- **User Management**: Securely store and retrieve user data using SharedPreferences.
+- **User Management**: Securely store and retrieve user data using **SharedPreferences**.
 - **Balance Management**: View and manage your current balance, with the ability to make transactions.
 - **Transaction History**: Keep track of all past transactions, including transfers and withdrawals.
 - **Money Transfer**: Transfer funds to other users, deducting the amount from the available balance and saving transaction records.
 - **Withdrawal**: Withdraw funds from the wallet with automatic balance checks to ensure sufficient funds.
 - **Deposit**: Deposit funds from the wallet with automatic balance checks to ensure sufficient funds.
 - **Phone Credit**: A feature to manage phone credit balance (planned for future enhancements or mobile-related operations).
-- **Local Storage**: All user data, balances, and transaction history are stored locally using SharedPreferences for quick access.
+- **Local Storage**: All user data, balances, and transaction history are stored locally using **SharedPreferences** for quick access.
 
 ## Technologies Used
 
@@ -22,13 +23,12 @@ The Wallet App is a Flutter-based mobile application designed to facilitate fina
 - **SharedPreferences**: A lightweight storage solution for persisting user data, transaction history, and balance.
 - **Font Awesome**: A popular icon library used for displaying intuitive icons in the app.
 - **Animated Text Kit**: A library used for creating engaging and animated text effects, enhancing the user interface.
-- ![gifmaker_me](https://github.com/user-attachments/assets/dafb8d7e-dfba-4ea0-bfbc-bf6f457ce140)
 
-
+![Animated Text Example](https://github.com/user-attachments/assets/dafb8d7e-dfba-4ea0-bfbc-bf6f457ce140)
 
 ## Getting Started
 
-To get started with the Wallet App, ensure that you have the necessary software installed on your machine. Follow the instructions below for installation and setup.
+To get started with the **Wallet App**, ensure that you have the necessary software installed on your machine. Follow the instructions below for installation and setup.
 
 ### Prerequisites
 
@@ -104,7 +104,11 @@ Once the app is up and running, you will have access to the following features:
 8. **Transactions Page**:  
    View a detailed list of all past transactions, including deposits, withdrawals, transfers (to users or charity), phone credit recharges, and bill payments.
 
-## File Structure
+### Folder and File Details:
 
-The project follows the directory structure outlined below for better organization and maintainability:
+- **assets/**: Contains all static resources like images, icons, and fonts.
+- **lib/screens/**: Includes UI screens such as Dashboard, Transfer, Withdraw, etc.
+- **lib/models/**: Data models such as User, Transaction.
+- **lib/services/**: Contains logic for SharedPreferences and API services.
+- **lib/utils/**: Utility classes and functions used across the app.
 
